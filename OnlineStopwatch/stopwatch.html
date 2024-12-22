@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is an online-stopwatch app. You can easily start your time to check your time.">
+  <meta name="keywords" content="timer, stopwatch ,zamanlayıcı, saat, dakika, saniye,second,minute,hour,check time">
+
+  <title> Online Stopwatch </title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    #display {
+      font-size: 10em;
+      margin: 20px;
+    }
+    button {
+      padding: 20px 30px;
+      font-size: 25px;
+      margin: 10px;
+      border-radius: 5px;
+      border: none;
+    }
+    
+  </style>
+</head>
+<body>
+ 
+  <h1>Stopwatch</h1>
+  <div id="display" style= "color:white;" >00:00:00</div>
+
+
+  <button 
+  id="startBtn" 
+  style="background-color: rgb(63,71,228);color: white;"
+  onmouseover="this.style.backgroundColor='rgb(99, 106, 232)';" 
+  onmouseout="this.style.backgroundColor='rgb(63,71,229)';" >Start</button> 
+
+  <button 
+  id="resetBtn" 
+  style="background-color: rgb(239, 231, 67);color: rgb(0, 0, 0);"
+  onmouseover="this.style.backgroundColor='rgb(237, 233, 120)';" 
+  onmouseout="this.style.backgroundColor='rgb(239,231,67)';" >Reset</button>
+
+  <button 
+  id="stopBtn" 
+  style="background-color: rgb(240, 20, 20);color: white;"
+  onmouseover="this.style.backgroundColor='rgb(239, 83, 83)';" 
+  onmouseout="this.style.backgroundColor='rgb(240, 20, 20)';" >Stop</button>
+
+
+
+  <script src="stopwatch.js"></script>
+
+</body>
+</html>
